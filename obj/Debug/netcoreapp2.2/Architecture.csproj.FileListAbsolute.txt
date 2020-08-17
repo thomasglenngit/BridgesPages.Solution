@@ -12,3 +12,5 @@
 /Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.RazorTargetAssemblyInfo.cache
 /Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.dll
 /Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.pdb
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/bin/Debug/netcoreapp2.2/Architecture.Views.dll
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.csproj.CopyComplete
