@@ -1,0 +1,14 @@
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/bin/Debug/netcoreapp2.2/Architecture.deps.json
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/bin/Debug/netcoreapp2.2/Architecture.runtimeconfig.json
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/bin/Debug/netcoreapp2.2/Architecture.runtimeconfig.dev.json
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/bin/Debug/netcoreapp2.2/Architecture.dll
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/bin/Debug/netcoreapp2.2/Architecture.pdb
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.csprojAssemblyReference.cache
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.csproj.CoreCompileInputs.cache
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.RazorAssemblyInfo.cache
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.RazorAssemblyInfo.cs
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.AssemblyInfoInputs.cache
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.AssemblyInfo.cs
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.RazorTargetAssemblyInfo.cache
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.dll
+/Users/frederickernest/Desktop/Epicodus/Architecture.Solution/obj/Debug/netcoreapp2.2/Architecture.pdb
