@@ -16,7 +16,7 @@ namespace Architecture.Models
         {
             builder.Entity<Bridge>()
                 .HasData(
-                    new Bridge { BridgeId = 1, Name = "Golden Gate", Country = "USA", City = "San Francisco", DateOfConstruction = new DateTime(1933, 1, 5), Architect = "Joseph Strauss" }
+                    new Bridge { BridgeId = 1, Name = "Golden Gate", Country = "USA", City = "San Francisco", StartDate = new DateTime(1933, 1, 5), EndDate = new DateTime(1937, 4, 19), Architect = "Joseph Strauss", Span = 1280  }
 
                 );
         }
