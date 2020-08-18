@@ -22,26 +22,26 @@ namespace Architecture.Controllers
     public ActionResult<IEnumerable<Bridge>> Get(string name, string country, string city, string architect, int span)
     {
       var query = _db.Bridges.AsQueryable();
-      // if (name != null)
-      // {
-      //   query = query.Where(entry => entry.Name == name);
-      // }
-      // if (country != null)
-      // {
-      //   query = query.Where(entry => entry.Country == country);
-      // }
-      // if (city != null)
-      // {
-      //   query = query.Where(entry => entry.City == city);
-      // }
-      // if (architect != null)
-      // {
-      //   query = query.Where(entry => entry.Architect == architect);
-      // }
-      // if (span != 0)
-      // {
-      //   query = query.Where(entry => entry.Span == span);
-      // }
+      if (name != null)
+      {
+        query = query.Where(entry => entry.Name == name);
+      }
+      if (country != null)
+      {
+        query = query.Where(entry => entry.Country == country);
+      }
+      if (city != null)
+      {
+        query = query.Where(entry => entry.City == city);
+      }
+      if (architect != null)
+      {
+        query = query.Where(entry => entry.Architect == architect);
+      }
+      if (span != 0)
+      {
+        query = query.Where(entry => entry.Span == span);
+      }
 
       return query.ToList();
     }
