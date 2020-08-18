@@ -17,6 +17,17 @@ namespace Architecture.Controllers
       _db = db;
     }
 
+    // [HttpGet]
+    // public async Task<IActionResult> GetAll([FromQuery] UrlQuery urlQuery)
+    // {
+    //   var validUrlQuery = new UrlQuery(urlQuery.PageNumber, urlQuery.PageSize);
+    //   var pagedData = _db.Bridges
+    //     .OrderBy(thing => thing.LocationId)
+    //     .Skip((validUrlQuery.PageNumer - 1) * validUrlQuery.PageSize)
+    //     .Take(validUrlQuery.PageSize);
+    //   return Ok(pagedData);
+    // }
+
     // GET api/Bridges
     [HttpGet]
     public ActionResult<IEnumerable<Bridge>> Get(string name, string country, string city, string architect, int span)
