@@ -46,7 +46,7 @@ namespace Architecture.Controllers
       return query.ToList();
     }
     [HttpGet("Search")]
-    public ActionResult<int> Search(string name, string country, string city, string architect, int span)
+    public ActionResult<int> Search(string name, string country, string city, string architect)
     {
       var query = _db.Bridges.AsQueryable();
       if (name != null)
@@ -65,21 +65,16 @@ namespace Architecture.Controllers
       {
         query = query.Where(entry => entry.Architect == architect);
       }
-      if (span != 0)
+      List<Bridge> listOfQuery = query.ToList();
+      int count = 0; 
+      for (int i = 0; i < listOfQuery.Count; i++)
       {
-        query = query.Where(entry => entry.Span == span);
+        count += listOfQuery[i].Span;
       }
-      // List<Bridge> listOfQuery = query.ToList();
-      // int count = 0; 
-      // for (int i = 0; i < listOfQuery.Count; i++)
-      // {
-      //   listOfQuery[i].Span += count;
-      // }
-      // int average = count/listOfQuery.Count;
-      // return average;
-      int average = 0;
+      int average = count/listOfQuery.Count;
       return average;
     }
+
 
     [HttpGet("{id}")]
     public ActionResult<Bridge> Get(int id)
