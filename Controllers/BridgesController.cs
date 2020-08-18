@@ -45,6 +45,15 @@ namespace Architecture.Controllers
 
       return query.ToList();
     }
+      // List<Bridge> listOfQuery = query.ToList();
+      // int count = 0; 
+
+      // for (int i = 0; i < listOfQuery.Count; i++)
+      // {
+      //   listOfQuery[i].Span += count;
+      // }
+      // int average = count/listOfQuery.Count;
+      // return average;
 
     [HttpGet("{id}")]
     public ActionResult<Bridge> Get(int id)
