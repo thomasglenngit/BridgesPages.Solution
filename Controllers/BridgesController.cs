@@ -49,6 +49,7 @@ namespace Architecture.Controllers
     public ActionResult<int> AverageSpan(string name, string country, string city, string architect)
     {
       var query = _db.Bridges.AsQueryable();
+
       if (name != null)
       {
         query = query.Where(entry => entry.Name == name);
@@ -65,13 +66,16 @@ namespace Architecture.Controllers
       {
         query = query.Where(entry => entry.Architect == architect);
       }
+
       List<Bridge> listOfQuery = query.ToList();
       int count = 0; 
+
       for (int i = 0; i < listOfQuery.Count; i++)
       {
         count += listOfQuery[i].Span;
       }
       int average = count/listOfQuery.Count;
+      
       return average;
     }
 
