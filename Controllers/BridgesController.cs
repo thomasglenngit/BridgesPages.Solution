@@ -26,7 +26,7 @@ namespace Architecture.Controllers
     //     .Skip((validUrlQuery.PageNumer - 1) * validUrlQuery.PageSize)
     //     .Take(validUrlQuery.PageSize);
     //   return Ok(pagedData);
-    // }
+    // };
 
     // GET api/Bridges
     [HttpGet]
