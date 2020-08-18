@@ -45,8 +45,8 @@ namespace Architecture.Controllers
 
       return query.ToList();
     }
-    [HttpGet("Search")]
-    public ActionResult<int> Search(string name, string country, string city, string architect)
+    [HttpGet("AverageSpan")]
+    public ActionResult<int> AverageSpan(string name, string country, string city, string architect)
     {
       var query = _db.Bridges.AsQueryable();
       if (name != null)
