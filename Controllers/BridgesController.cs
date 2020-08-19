@@ -28,7 +28,7 @@ namespace Architecture.Controllers
     //   return Ok(pagedData);
     // };
 
-    // GET api/Bridges
+    // GET api/Bridges  
     [HttpGet]
     public ActionResult<IEnumerable<Bridge>> Get(string name, string country, string city, string architect, int span)
     {
