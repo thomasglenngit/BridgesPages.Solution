@@ -62,6 +62,7 @@ namespace Architecture.Controllers
 
       return query.ToList();
     }
+    
     [HttpGet("AverageSpan")]
     public ActionResult<int> AverageSpan(string name, string country, string city, string architect)
     {
