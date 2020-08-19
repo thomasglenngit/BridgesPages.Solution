@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 
+
 namespace Architecture.Models
 {
     public class ArchitectureContext : DbContext

@@ -1,10 +1,14 @@
+using Architecture.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System;
 
 
-namespace Bridges.Models
+namespace Architecture.Models
 {
     public class UrlQuery
     {

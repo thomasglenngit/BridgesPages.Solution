@@ -1,8 +1,14 @@
 using Architecture.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using System;
+using System.Configuration;
+using System.Data.SqlClient;
+
 
 namespace Architecture.Controllers
 {
@@ -17,16 +23,16 @@ namespace Architecture.Controllers
       _db = db;
     }
 
-    // [HttpGet]
-    // public async Task<IActionResult> GetAll([FromQuery] UrlQuery urlQuery)
-    // {
-    //   var validUrlQuery = new UrlQuery(urlQuery.PageNumber, urlQuery.PageSize);
-    //   var pagedData = _db.Bridges
-    //     .OrderBy(thing => thing.LocationId)
-    //     .Skip((validUrlQuery.PageNumer - 1) * validUrlQuery.PageSize)
-    //     .Take(validUrlQuery.PageSize);
-    //   return Ok(pagedData);
-    // };
+    [HttpGet("Page")]
+    public IActionResult GetAll([FromQuery] UrlQuery urlQuery)
+    {
+      var validUrlQuery = new UrlQuery(urlQuery.PageNumber, urlQuery.PageSize);
+      var pagedData = _db.Bridges
+        .OrderBy(thing => thing.BridgeId)
+        .Skip((validUrlQuery.PageNumber - 1) * validUrlQuery.PageSize)
+        .Take(validUrlQuery.PageSize);
+      return Ok(pagedData);
+    }
 
     // GET api/Bridges  
     [HttpGet]
