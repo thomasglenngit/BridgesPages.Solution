@@ -12156,11 +12156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thomasglenn/Desktop/Csharp/Bridges.Solution/Architecture.csproj",
+      "projectUniqueName": "/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/Architecture.csproj",
       "projectName": "Architecture",
-      "projectPath": "/Users/thomasglenn/Desktop/Csharp/Bridges.Solution/Architecture.csproj",
+      "projectPath": "/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/Architecture.csproj",
       "packagesPath": "/Users/thomasglenn/.nuget/packages/",
-      "outputPath": "/Users/thomasglenn/Desktop/Csharp/Bridges.Solution/obj/",
+      "outputPath": "/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

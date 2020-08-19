@@ -28,3 +28,17 @@
 /Users/thomasglenn/Desktop/Csharp/Bridges.Solution/obj/Debug/netcoreapp2.2/Architecture.RazorTargetAssemblyInfo.cache
 /Users/thomasglenn/Desktop/Csharp/Bridges.Solution/obj/Debug/netcoreapp2.2/Architecture.dll
 /Users/thomasglenn/Desktop/Csharp/Bridges.Solution/obj/Debug/netcoreapp2.2/Architecture.pdb
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/bin/Debug/netcoreapp2.2/Architecture.deps.json
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/bin/Debug/netcoreapp2.2/Architecture.runtimeconfig.json
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/bin/Debug/netcoreapp2.2/Architecture.runtimeconfig.dev.json
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/bin/Debug/netcoreapp2.2/Architecture.dll
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/bin/Debug/netcoreapp2.2/Architecture.pdb
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.csprojAssemblyReference.cache
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.csproj.CoreCompileInputs.cache
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.RazorAssemblyInfo.cache
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.RazorAssemblyInfo.cs
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.AssemblyInfoInputs.cache
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.AssemblyInfo.cs
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.RazorTargetAssemblyInfo.cache
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.dll
+/Users/thomasglenn/Desktop/Csharp/BridgesPages.Solution/obj/Debug/netcoreapp2.2/Architecture.pdb

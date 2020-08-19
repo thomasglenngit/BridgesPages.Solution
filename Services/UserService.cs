@@ -22,7 +22,7 @@ namespace Architecture.Services
         // users hardcoded for simplicity, store in a db with hashed passwords in production applications
         private List<User> _users = new List<User>
         { 
-            new User { Id = 1, FirstName = "Dennis", LastName = "Rodman", Username = "tattooman", Password = "1" } 
+            new User { Id = 1, FirstName = "Test", LastName = "User", Username = "test", Password = "test" } 
         };
 
         private readonly AppSettings _appSettings;
